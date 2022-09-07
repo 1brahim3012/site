@@ -1,0 +1,76 @@
+body{
+	font-family: arial;
+	font-size: 24px;
+	background-color: orange;
+}
+h1{
+	text-align: center;
+	text-transform:uppercase;
+	font-family: cursive;
+}
+.bordery{
+	border-top: 2px solid #aaaaaa;
+}
+nav	{
+	margin: 27px auto 0;
+	position: relative;
+	width: 590px;
+	height: 50px;
+	background-color: #535d67;
+	border-radius: 1px solid black;
+	border-radius: 25px;
+	box-shadow: 2px 2px 4px #000;
+}
+nav a{
+	line-height: 50px;
+	height: 100%;
+	font-size: 15px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	cursor: pointer;
+}
+nav.animation{
+	position: absolute;
+	height: 100%;
+	top: 0;
+	z-index: 0;
+	transition: all .5s ease 0s;
+	border-radius: 8px;
+}
+a{
+	font-weight: bold;
+}
+.first {
+	width: 90px;
+	margin-left: 0px;
+	padding: 0px 11px 0px;
+	border-radius: 25px;
+}
+.two{
+	padding: 0px 10px 0px;
+	border-radius: 25px;
+}
+.three{
+	padding: 0px 11px 0px;
+	border-radius: 25px;
+}
+.four{
+	padding: 0px 14px 0px;
+	border-radius: 25px;
+}
+.five{
+	width: 141px;
+	padding: 0px 13px 0px;
+	border-radius: 25px;
+}
+.menu a:hover{
+	background-color: white;
+	opacity: 50%;
+	color: black;
+}
+
